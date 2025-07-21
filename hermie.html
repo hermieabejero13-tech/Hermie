@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Senior Assistance Registration</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+    h2 {
+      color: #004080;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #004080;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      margin-top: 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Senior Information Form</h1>
+    <p>Helping You Stay Connected and Supported</p>
+  </header>
+
+  <div class="container">
+    <h2>Register Your Information</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required />
+
+      <label for="contact">Contact Number</label>
+      <input type="tel" id="contact" name="contact" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="location">City / Province</label>
+      <input type="text" id="location" name="location" required />
+
+      <label for="notes">Additional Information (Optional)</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+
+      <button type="submit">Submit Information</button>
+    </form>
+  </div>
+
+  <footer>
+    <p><strong>Disclaimer:</strong> By submitting this form, you agree to share your personal information for the purpose of community outreach or service coordination. Your data will be kept confidential and will not be shared with third parties without your consent.</p>
+    <p>© 2025 SeniorsConnect PH</p>
+  </footer>
+
+</body>
+</html>
